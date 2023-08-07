@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Ubuntu:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sticky {
+  position: fixed;
+  background-color: #faf9f7ef;
+  border-bottom: 1px solid #5b69508f;
+  border-bottom: 1px solid #c4d10a;
+  transition: all 1s ease-in;
+}
+
+@media (max-width: 767px) {
+  .sticky {
+    height: 3.5rem;
+    padding: 0rem 2rem;
+  }
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}

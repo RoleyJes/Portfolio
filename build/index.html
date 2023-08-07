@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Jessica Imoesemi</title>
+  </head>
+  <body class="bg-bground-100">
+    <!-- Mobile Side Menu -->
+    <aside>
+      <div
+        id="sideMenu"
+        class="fixed top-0 right-0 z-[120] w-0 pt-32 h-full overflow-x-hidden bg-bground-100 font-poppins transition-all">
+        <div
+          class="absolute top-10 right-6 w-[2rem] cursor-pointer"
+          id="closeMenu">
+          <img class="w-full" src="imgs/icon-menu-close.svg" alt="close menu" />
+        </div>
+
+        <ul class="flex flex-col gap-8 items-center justify-center text-2xl">
+          <li class="tracking-wider"><a href="#">Home</a></li>
+          <li class="tracking-wider"><a href="#about">About</a></li>
+          <li class="tracking-wider"><a href="#skills">Skills</a></li>
+          <li class="tracking-wider"><a href="#portfolio">Portfolio</a></li>
+          <li>
+            <a
+              href="form.html"
+              class="bg-secondary-100 border border-secondary-100 text-white hover:text-secondary-100 hover:bg-transparent transition-all tracking-wide py-4 px-6 rounded-2xl openModalBtns"
+              >Say Hello</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fixed top-0 left-0 bg-[#00000080] w-full h-full z-[110] backdrop-blur transition-all hidden overlay"></div>
+    </aside>
+
+    <header
+      style="background-image: url('imgs/hero.svg')"
+      class="h-[56rem] bg-center bg-cover bg-no-repeat bg-bground-100 md-[50rem] lg:h-[48rem] xl:h-[56rem] header">
+      <!-- Navbar -->
+      <nav
+        class="h-[5.6rem] max-w-[1600px] flex items-center justify-between font-poppins text-primary-100 px-5 w-full z-[100] md:px-8 lg:px-[4rem] xl:px-[6rem] nav">
+        <a
+          href="#"
+          class="text-2xl text-secondary-100 font-kablammo md:text-3xl lg:text-5xl"
+          >Jessica Imoesemi</a
+        >
+
+        <!--Desktop Nav Links -->
+        <div class="hidden md:block">
+          <ul class="flex gap-8 md:text-sm md:gap-6">
+            <li class="hover:scale-110 transition-all">
+              <a href="#" class="tracking-wider">Home</a>
+            </li>
+            <li class="hover:scale-110 transition-all">
+              <a href="#about" class="tracking-wider hover:scale-150">About</a>
+            </li>
+            <li class="hover:scale-110 transition-all">
+              <a href="#skills" class="tracking-wider hover:scale-150"
+                >Skills</a
+              >
+            </li>
+            <li class="hover:scale-110 transition-all">
+              <a href="#portfolio" class="tracking-wider">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hidden md:block">
+          <a
+            href="form.html"
+            class="bg-secondary-100 border border-secondary-100 text-white hover:text-secondary-100 hover:bg-transparent transition-all tracking-wide py-4 px-6 rounded-2xl openModalBtns"
+            >Say Hello</a
+          >
+        </div>
+
+        <!-- hamburger -->
+        <div class="cursor-pointer md:hidden" id="openMenu">
+          <img src="imgs/icon-menu.svg" alt="menu" />
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <section class="py-16">
+        <div
+          class="max-w-[97.5rem] mx-auto px-4 grid gap-12 items-center font-poppins md:max-lg:max-w-[36.8rem] lg:grid-flow-col lg:grid-cols-2 lg:px-16 lg:gap-10">
+          <div class="text-center lg:text-start">
+            <h1
+              class="text-5xl mb-8 text-secondary-100 font-ubuntu lg:text-7xl">
+              A budding Web Developer
+            </h1>
+            <p
+              class="text-primary-100 text-xl leading-8 lg:text-justify lg:text-lg">
+              I'm an enthusiastic and passionate aspiring front-end web
+              developer. I build websites that aren't just aesthetically
+              pleasing, but also functional enough for great user experience.
+            </p>
+          </div>
+
+          <div
+            class="w-[20rem] rounded-full overflow-hidden place-self-center lg:w-[30rem] xl:w-[36rem]">
+            <img
+              src="imgs/OMJ-4815 (2).jpg"
+              class="w-full rounded-full"
+              alt="my photo" />
+          </div>
+          <!-- <div class="w-[40rem] rounded-full overflow-hidden place-self-end">
+            <img src="imgs/me-no-bg.png" class="w-full" alt="my photo" />
+          </div> -->
+        </div>
+      </section>
+    </header>
+
+    <!-- About -->
+    <section
+      class="py-16 bg-bground-100 md:py-28 lg:pt-32 lg:pb-24 transition-all duration-1000 ease-in section"
+      id="about">
+      <div
+        class="max-w-[97.5rem] px-4 mx-auto text-center font-poppins text-primary-100 md:px-20 lg:px-16">
+        <div class="mx-auto lg:max-w-[60%]">
+          <p class="text-sm font-semibold tracking-[3px]">ABOUT</p>
+          <p
+            class="leading-[40px] text-[30px] my-5 text-secondary-100 font-ubuntu lg:leading-normal lg:text-[39px] lg:my-6">
+            Unlimited imaginative ideas abound...
+          </p>
+          <p class="text-justify text-xl lg:text-lg">
+            Welcome to Jessy's corner of the web! I am a passionate and
+            motivated junior web developer with a keen interest in crafting
+            immersive digital experiences. With an insatiable curiosity for all
+            things tech, I'm dedicated to bringing creative ideas to life
+            through code. Web development, to me, is not just about lines of
+            code; it's about the magic that happens when design and
+            functionality come together seamlessly. I find joy in the challenge
+            of creating responsive and visually appealing websites that leave a
+            lasting impression on users. Beyond coding skills, I pride myself on
+            my ability to work collaboratively with others. I believe that
+            effective teamwork and communication are essential for delivering
+            successful projects. Moreover, I approach challenges with a positive
+            attitude and a determination to find creative solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section
+      style="background-image: url('imgs/bcg.svg')"
+      class="bg-no-repeat bg-center bg-cover bg-[#f7f2ef] py-16 md:py-28 lg:pt-32 lg:pb-24 transition-all duration-1000 ease-in section"
+      id="skills">
+      <div
+        class="max-w-[97.5rem] px-4 mx-auto text-center font-poppins text-primary-100 lg:px-16">
+        <div class="mb-16 md:max-xl:max-w-[36.8rem] md:max-xl:mx-auto lg:mb-24">
+          <p class="text-sm font-semibold tracking-[3px]">SKILLS</p>
+          <p
+            class="leading-[40px] text-[30px] my-5 text-secondary-100 font-ubuntu lg:leading-normal lg:text-[39px] lg:my-6">
+            Front-end Developer
+          </p>
+          <p class="text-primary-100 max-w-[50rem] mx-auto text-xl lg:text-lg">
+            I have been honing my skills in HTML, CSS, and JavaScript, and I'm
+            always eager to learn new technologies to stay up-to-date with the
+            ever-evolving web landscape.
+          </p>
+        </div>
+
+        <div class="grid gap-y-8 md:grid-cols-2">
+          <div
+            class="mx-auto py-8 px-16 rounded-lg w-full flex flex-col items-center bg-bground-100 md:w-[70%]">
+            <div class="w-[3rem] flex items-center justify-center mb-5">
+              <img class="w-full" src="imgs/computer.svg" alt="" />
+            </div>
+            <p class="mb-8 font-ubuntu text-xl">Languages I speak</p>
+            <ul class="flex flex-col gap-4 text-start">
+              <li><span>✔</span> HTML</li>
+              <li><span>✔</span> CSS</li>
+              <li><span>✔</span> JavaScript</li>
+            </ul>
+          </div>
+          <div
+            class="mx-auto bg-bground-100 py-8 px-16 rounded-lg w-full flex flex-col items-center md:w-[70%]">
+            <div class="w-[3rem] flex items-center justify-center mb-5">
+              <img class="w-full" src="imgs/business.svg" alt="" />
+            </div>
+            <p class="mb-8 font-ubuntu text-xl">Developer tools</p>
+            <ul class="flex flex-col gap-4 text-start">
+              <li class=""><span>✔</span> Bootstrap</li>
+              <li class=""><span>✔</span> GitHub</li>
+              <li class=""><span>✔</span> Tailwind CSS</li>
+              <li class=""><span>✔</span> VSCode</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section
+      class="bg-bground-100 py-16 md:py-28 lg:py-24 transition-all duration-1000 ease-in section"
+      id="portfolio">
+      <div
+        class="max-w-[1560px] px-4 mx-auto font-poppins text-primary-100 lg:px-16">
+        <div class="text-center mb-16 lg:mt-6 lg:mb-8">
+          <h1
+            class="text-[30px] mb-6 text-secondary-100 font-ubuntu lg:text-[39px] lg:mb-6">
+            My Projects
+          </h1>
+          <p class="text-primary-100 max-w-[50rem] mx-auto text-xl lg:text-lg">
+            I adopt a mobile-first workflow for my projects.
+          </p>
+        </div>
+
+        <!-- Mobile display -->
+        <div
+          style="background-image: url('imgs/bcg.svg')"
+          class="bg-no-repeat bg-center bg-cover grid gap-y-12 md:hidden">
+          <article>
+            <div class="flex items-center justify-center flex-col gap-y-8">
+              <div class="w-[21rem] h-[11rem]">
+                <img
+                  class="w-full h-full"
+                  src="imgs/Interactive Card Details Desktop full.png"
+                  alt="" />
+              </div>
+              <div class="w-[8rem] h-[17rem]">
+                <img
+                  class="w-full h-full"
+                  src="imgs/Interactive Card Details Mobile.png"
+                  alt="" />
+              </div>
+            </div>
+
+            <div class="text-center mt-8">
+              <p class="text-primary-200 font-bold text-[20px] mb-6">
+                Interactive Card Details
+              </p>
+              <p>
+                A responsive and interactive form that allows users to see the
+                card details update in real-time as they fill in the form. Users
+                also receive error messages if form is improperly completed.
+              </p>
+              <a
+                href="#"
+                class="mt-6 inline-block hover:underline transition-all"
+                >Visit Website &RightArrow;</a
+              >
+            </div>
+          </article>
+
+          <article>
+            <div class="flex items-center justify-center flex-col gap-y-8">
+              <div class="w-[21rem] h-[11rem]">
+                <img
+                  class="w-full h-full"
+                  src="imgs/Food app desktop.png"
+                  alt="" />
+              </div>
+              <div class="w-[8rem] h-[17rem]">
+                <img
+                  class="w-full h-full"
+                  src="imgs/Food app mobile.png"
+                  alt="" />
+              </div>
+            </div>
+
+            <div class="mt-8 text-center">
+              <p class="text-primary-200 font-bold text-[20px] mb-6">
+                Bella Onojie Food App
+              </p>
+              <p>A responsive food ordering website.</p>
+              <a
+                href="#"
+                class="mt-6 inline-block hover:underline transition-all"
+                >Visit Website &RightArrow;</a
+              >
+            </div>
+          </article>
+
+          <article>
+            <div class="flex items-center justify-center flex-col gap-y-8">
+              <div class="w-[21rem] h-[11rem]">
+                <img
+                  class="w-full h-full"
+                  src="imgs/News Homepage Desktop.png"
+                  alt="" />
+              </div>
+              <div class="w-[8rem] h-[17rem]">
+                <img
+                  class="w-full h-full"
+                  src="imgs/News Homepage Mobile.png"
+                  alt="" />
+              </div>
+            </div>
+
+            <div class="mt-8 text-center">
+              <p class="text-primary-200 font-bold text-[20px] mb-6">
+                News Homepage
+              </p>
+              <p>
+                A news homepage with an optimum layout based on the user's
+                device screen size.
+              </p>
+              <a
+                href="#"
+                class="mt-6 inline-block hover:underline transition-all"
+                >Visit Website &RightArrow;</a
+              >
+            </div>
+          </article>
+        </div>
+
+        <!-- Desktop display -->
+        <div
+          id="controls-carousel"
+          class="relative w-full hidden md:block"
+          data-carousel="static">
+          <!-- Carousel wrapper -->
+          <div class="relative h-56 overflow-hidden rounded-lg md:h-[35rem]">
+            <!-- Item 1 -->
+            <div
+              class="hidden duration-700 ease-in-out mt-12"
+              data-carousel-item="active">
+              <article class="w-[38rem] mx-auto">
+                <div
+                  class="flex justify-between hover:scale-105 transition-all">
+                  <div class="w-[25rem] h-[12rem]">
+                    <img
+                      class="w-full h-full"
+                      src="imgs/Interactive Card Details Desktop full.png"
+                      alt="" />
+                  </div>
+                  <div class="w-[8rem] h-[17rem]">
+                    <img
+                      class="w-full h-full"
+                      src="imgs/Interactive Card Details Mobile.png"
+                      alt="" />
+                  </div>
+                </div>
+
+                <div class="text-center mt-8">
+                  <p class="text-primary-200 font-bold text-[20px] mb-6">
+                    Interactive Card Details
+                  </p>
+                  <p>
+                    A responsive and interactive form that allows users to see
+                    the card details update in real-time as they fill in the
+                    form. Users also receive error messages if form is
+                    improperly completed.
+                  </p>
+                  <a
+                    href="#"
+                    class="mt-6 inline-block hover:underline transition-all"
+                    >Visit Website &RightArrow;</a
+                  >
+                </div>
+              </article>
+            </div>
+            <!-- Item 2 -->
+            <div
+              class="hidden duration-700 ease-in-out mt-12"
+              data-carousel-item>
+              <article class="w-[38rem] mx-auto">
+                <div
+                  class="flex justify-between hover:scale-105 transition-all">
+                  <div class="w-[25rem] h-[12rem]">
+                    <img
+                      class="w-full h-full"
+                      src="imgs/Food app desktop.png"
+                      alt="" />
+                  </div>
+                  <div class="w-[8rem] h-[17rem]">
+                    <img
+                      class="w-full h-full"
+                      src="imgs/Food app mobile.png"
+                      alt="" />
+                  </div>
+                </div>
+
+                <div class="text-center mt-8">
+                  <p class="text-primary-200 font-bold text-[20px] mb-6">
+                    Bella Onojie Food App
+                  </p>
+                  <p>A food ordering app to make life easy</p>
+                  <a href="#" class="mt-6 block hover:underline transition-all"
+                    >Visit Website &RightArrow;</a
+                  >
+                </div>
+              </article>
+            </div>
+            <!-- Item 3 -->
+            <div
+              class="hidden duration-700 ease-in-out mt-12"
+              data-carousel-item>
+              <article class="w-[38rem] mx-auto">
+                <div
+                  class="flex justify-between hover:scale-105 transition-all">
+                  <div class="w-[25rem] h-[12rem]">
+                    <img
+                      class="w-full h-full"
+                      src="imgs/News Homepage Desktop.png"
+                      alt="" />
+                  </div>
+                  <div class="w-[8rem] h-[17rem]">
+                    <img
+                      class="w-full h-full"
+                      src="imgs/News Homepage Mobile.png"
+                      alt="" />
+                  </div>
+                </div>
+
+                <div class="text-center mt-8">
+                  <p class="text-primary-200 font-bold text-[20px] mb-6">
+                    News Homepage
+                  </p>
+                  <p>
+                    A news homepage with an optimum layout based on the user's
+                    device screen size.
+                  </p>
+                  <a
+                    href="#"
+                    class="mt-6 inline-block hover:underline transition-all"
+                    >Visit Website &RightArrow;</a
+                  >
+                </div>
+              </article>
+            </div>
+            <!-- Item 4 -->
+            <div
+              class="hidden duration-700 ease-in-out mt-12"
+              data-carousel-item>
+              <article class="w-[38rem] mx-auto">
+                <div
+                  class="flex justify-between hover:scale-105 transition-all">
+                  <div class="w-[25rem] h-[12rem]">
+                    <img
+                      class="w-full h-full"
+                      src="imgs/News Homepage Desktop.png"
+                      alt="" />
+                  </div>
+                  <div class="w-[8rem] h-[17rem]">
+                    <img
+                      class="w-full h-full"
+                      src="imgs/News Homepage Mobile.png"
+                      alt="" />
+                  </div>
+                </div>
+
+                <div class="text-center mt-8">
+                  <p class="text-primary-200 font-bold text-[20px] mb-6">
+                    News Homepage
+                  </p>
+                  <p>
+                    A news homepage with an optimum layout based on the user's
+                    device screen size.
+                  </p>
+                  <a
+                    href="#"
+                    class="mt-6 inline-block hover:underline transition-all"
+                    >Visit Website &RightArrow;</a
+                  >
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Slider controls -->
+          <button
+            type="button"
+            class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev>
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-secondary-100 group-hover:bg-[#5b6950d8] group-focus:ring-4 group-focus:ring-secondary-100 group-focus:outline-none">
+              <svg
+                class="w-4 h-4 text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10">
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 1 1 5l4 4" />
+              </svg>
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+
+          <button
+            type="button"
+            class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next>
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-secondary-100 group-hover:bg-[#5b6950d8] group-focus:ring-4 group-focus:ring-secondary-100 group-focus:outline-none">
+              <svg
+                class="w-4 h-4 text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10">
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 9 4-4-4-4" />
+              </svg>
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-100 py-16 font-ubuntu lg:py-24">
+      <div class="text-center max-w-[1560px] mx-auto text-white">
+        <div class="px-16">
+          <p class="leading-normal text-3xl">
+            Ever Learning, Ever Coding, Ever Growing.
+          </p>
+
+          <div
+            class="my-10 flex flex-col items-center justify-center gap-8 md:flex-row">
+            <span class="text-xl">Got a project?</span>
+            <a
+              href="form.html"
+              class="text-secondary-100 bg-bground-200 text-xl tracking-wide py-3 px-5 rounded-2xl border border-secondary-100 hover:text-white hover:bg-transparent hover:border-white transition-all openModalBtns"
+              >Say Hello</a
+            >
+          </div>
+        </div>
+
+        <div class="h-[0.1px] w-[100%] bg-[#3b38388f]"></div>
+
+        <div class="px-16 mt-8">
+          <div class="flex justify-center items-center gap-8 mb-8">
+            <a
+              href="/"
+              class="w-[2rem] h-[2rem] rounded-full flex items-center justify-center p-2 border border-[#d5dde9]">
+              <img src="imgs/icons8-twitter.svg" alt="twitter logo" />
+            </a>
+
+            <a
+              href="/"
+              class="w-[2rem] h-[2rem] rounded-full flex items-center justify-center p-2 border border-[#d5dde9]">
+              <img src="imgs/icons8-linkedin.svg" alt="linkedin logo" />
+            </a>
+
+            <a
+              href="/"
+              class="w-[2rem] h-[2rem] rounded-full flex items-center justify-center p-2 border border-[#d5dde9]">
+              <img src="imgs/icons8-email-30.png" alt="email logo" />
+            </a>
+          </div>
+
+          <p class="">Created with ❤</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Form Modal -->
+    <div
+      class="bg-bground-100 rounded-lg shadow-md px-5 py-8 fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[80%] max-w-[60rem] z-[1000] transition-all duration-300 md:w-[60%] lg:w-[40%] hide modal">
+      <div class="text-right">
+        <button class="text-4xl text-primary-200 closeModalBtn">&times;</button>
+      </div>
+      <p
+        class="text-xl text-secondary-100 text-center font-poppins font-medium mb-7">
+        Let's get started...
+      </p>
+      <form>
+        <div
+          class="flex flex-col gap-y-6 md:grid md:grid-cols-2 md:gap-x-6 md:gap-y-8 lg:gap-10 lg:w-[90%] mx-auto">
+          <div>
+            <input
+              type="text"
+              class="border text-primary-100 border-secondary-100 bg-bground-100 rounded-lg px-3 py-2 w-full outline-none focus:border-none"
+              name=""
+              id=""
+              placeholder="First Name *"
+              required />
+          </div>
+
+          <div>
+            <input
+              type="text"
+              class="border text-primary-100 border-secondary-100 bg-bground-100 rounded-lg px-3 py-2 w-full outline-none focus:border-none"
+              name=""
+              id=""
+              placeholder="Last Name *"
+              required />
+          </div>
+
+          <div>
+            <input
+              type="email"
+              class="border text-primary-100 border-secondary-100 bg-bground-100 rounded-lg px-3 py-2 w-full outline-none focus:border-none"
+              name=""
+              id=""
+              placeholder="Email *"
+              required />
+          </div>
+
+          <div>
+            <input
+              type="number"
+              class="border text-primary-100 border-secondary-100 bg-bground-100 rounded-lg px-3 py-2 w-full outline-none focus:border-none"
+              name=""
+              id=""
+              placeholder="Phone Number" />
+          </div>
+
+          <div class="col-span-2">
+            <textarea
+              class="border h-auto text-primary-100 border-secondary-100 bg-bground-100 rounded-lg px-3 py-2 w-full outline-none focus:border-none"
+              placeholder="Message..."
+              name=""
+              id=""></textarea>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button
+            type="submit"
+            class="bg-secondary-100 border hover:bg-transparent text-sm hover:border-secondary-100 hover:text-secondary-100 font-poppins tracking-[3px] text-white font-semibold py-4 px-6 rounded-2xl mt-12">
+            SUBMIT
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      class="fixed top-0 left-0 bg-[#00000080] w-full h-full z-[110] backdrop-blur transition-all duration-500 hide backdrop"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
