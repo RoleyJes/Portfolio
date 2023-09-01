@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"
-      rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Jessica Imoesemi</title>
   </head>
@@ -105,15 +102,13 @@
           </div>
 
           <div
-            class="w-[20rem] rounded-full overflow-hidden place-self-center lg:w-[30rem] xl:w-[36rem]">
+            class="w-[20rem] bg-[#5b69508c] rounded-full overflow-hidden place-self-center lg:w-[30rem] xl:w-[36rem] lazy-img">
             <img
-              src="imgs/OMJ-4815 (2).jpg"
-              class="w-full rounded-full"
+              src="imgs/me-no-bg-small.png"
+              data-src="imgs/me-no-bg.png"
+              class="w-full rounded-full transition-all duration-[250ms] lazy-img"
               alt="my photo" />
           </div>
-          <!-- <div class="w-[40rem] rounded-full overflow-hidden place-self-end">
-            <img src="imgs/me-no-bg.png" class="w-full" alt="my photo" />
-          </div> -->
         </div>
       </section>
     </header>
@@ -130,17 +125,19 @@
             class="leading-[40px] text-[30px] my-5 text-secondary-100 font-ubuntu lg:leading-normal lg:text-[39px] lg:my-6">
             Unlimited imaginative ideas abound...
           </p>
-          <p class="text-justify text-xl lg:text-lg">
+          <p class="text-start lg:text-justify text-xl lg:text-lg">
             Welcome to Jessy's corner of the web! I am a passionate and
             motivated junior web developer with a keen interest in crafting
             immersive digital experiences. With an insatiable curiosity for all
             things tech, I'm dedicated to bringing creative ideas to life
-            through code. Web development, to me, is not just about lines of
-            code; it's about the magic that happens when design and
-            functionality come together seamlessly. I find joy in the challenge
-            of creating responsive and visually appealing websites that leave a
-            lasting impression on users. Beyond coding skills, I pride myself on
-            my ability to work collaboratively with others. I believe that
+            through code. <br />
+            <br />
+            Web development, to me, is not just about lines of code; it's about
+            the magic that happens when design and functionality come together
+            seamlessly. I find joy in the challenge of creating responsive and
+            visually appealing websites that leave a lasting impression on
+            users. <br /><br />Beyond coding skills, I pride myself on my
+            ability to work collaboratively with others. I believe that
             effective teamwork and communication are essential for delivering
             successful projects. Moreover, I approach challenges with a positive
             attitude and a determination to find creative solutions.
@@ -205,7 +202,7 @@
       id="portfolio">
       <div
         class="max-w-[1560px] px-4 mx-auto font-poppins text-primary-100 lg:px-16">
-        <div class="text-center mb-16 lg:mt-6 lg:mb-8">
+        <div class="text-center mb-16 lg:mt-6 lgmb-8">
           <h1
             class="text-[30px] mb-6 text-secondary-100 font-ubuntu lg:text-[39px] lg:mb-6">
             My Projects
@@ -215,266 +212,156 @@
           </p>
         </div>
 
-        <!-- Mobile display -->
-        <div
-          style="background-image: url('imgs/bcg.svg')"
-          class="bg-no-repeat bg-center bg-cover grid gap-y-12 md:hidden">
-          <article>
-            <div class="flex items-center justify-center flex-col gap-y-8">
-              <div class="w-[21rem] h-[11rem]">
-                <img
-                  class="w-full h-full"
-                  src="imgs/Interactive Card Details Desktop full.png"
-                  alt="" />
+        <div class="h-[55rem] lg:h-[40rem] slider">
+          <div class="slide">
+            <article class="w-[65%] mx-auto">
+              <div
+                class="flex items-center justify-center flex-col gap-y-8 lg:flex-row lg:gap-36 transition-all">
+                <div class="w-[21rem] h-[11rem] lg:w-[25rem] lg:h-[12rem]">
+                  <img
+                    class="w-full h-full"
+                    src="imgs/clickerss_desktop.png"
+                    alt="" />
+                </div>
+                <div class="w-[8rem] h-[17rem]">
+                  <img
+                    class="w-full h-full"
+                    src="imgs/clickerss_Phone.png"
+                    alt="" />
+                </div>
               </div>
-              <div class="w-[8rem] h-[17rem]">
-                <img
-                  class="w-full h-full"
-                  src="imgs/Interactive Card Details Mobile.png"
-                  alt="" />
+
+              <div class="mt-8 lg:text-center lg:w-[60%] lg:mx-auto">
+                <p class="text-primary-200 font-bold text-[1.25rem] mb-6">
+                  Clickers Solution
+                </p>
+                <p>
+                  A responsive and interactive form that allows users to see the
+                  card details update in real-time as they fill in the form.
+                  Users also receive error messages if form is improperly
+                  completed.
+                </p>
+                <a
+                  href="https://clickerss.netlify.app/"
+                  target="_blank"
+                  class="mt-6 inline-block font-medium hover:underline transition-all"
+                  >Visit Website &RightArrow;</a
+                >
               </div>
-            </div>
+            </article>
+          </div>
 
-            <div class="text-center mt-8">
-              <p class="text-primary-200 font-bold text-[20px] mb-6">
-                Interactive Card Details
-              </p>
-              <p>
-                A responsive and interactive form that allows users to see the
-                card details update in real-time as they fill in the form. Users
-                also receive error messages if form is improperly completed.
-              </p>
-              <a
-                href="#"
-                class="mt-6 inline-block hover:underline transition-all"
-                >Visit Website &RightArrow;</a
-              >
-            </div>
-          </article>
-
-          <article>
-            <div class="flex items-center justify-center flex-col gap-y-8">
-              <div class="w-[21rem] h-[11rem]">
-                <img
-                  class="w-full h-full"
-                  src="imgs/Food app desktop.png"
-                  alt="" />
+          <div class="slide">
+            <article class="w-[65%] mx-auto">
+              <div
+                class="flex items-center justify-center flex-col gap-y-8 lg:flex-row lg:gap-36 transition-all">
+                <div class="w-[21rem] h-[11rem] lg:w-[25rem] lg:h-[12rem]">
+                  <img
+                    class="w-full h-full"
+                    src="imgs/Interactive Card Details Desktop full.png"
+                    alt="" />
+                </div>
+                <div class="w-[8rem] h-[17rem]">
+                  <img
+                    class="w-full h-full"
+                    src="imgs/Interactive Card Details Mobile.png"
+                    alt="" />
+                </div>
               </div>
-              <div class="w-[8rem] h-[17rem]">
-                <img
-                  class="w-full h-full"
-                  src="imgs/Food app mobile.png"
-                  alt="" />
+
+              <div class="mt-8 lg:text-center lg:w-[60%] lg:mx-auto">
+                <p class="text-primary-200 font-bold text-[1.25rem] mb-6">
+                  Interactive Card Details
+                </p>
+                <p>
+                  A responsive and interactive form that allows users to see the
+                  card details update in real-time as they fill in the form.
+                  Users also receive error messages if form is improperly
+                  completed.
+                </p>
+                <a
+                  href="https://interactive-carddetails-form.netlify.app/"
+                  target="_blank"
+                  class="mt-6 inline-block font-medium hover:underline transition-all"
+                  >Visit Website &RightArrow;</a
+                >
               </div>
-            </div>
+            </article>
+          </div>
 
-            <div class="mt-8 text-center">
-              <p class="text-primary-200 font-bold text-[20px] mb-6">
-                Bella Onojie Food App
-              </p>
-              <p>A responsive food ordering website.</p>
-              <a
-                href="#"
-                class="mt-6 inline-block hover:underline transition-all"
-                >Visit Website &RightArrow;</a
-              >
-            </div>
-          </article>
-
-          <article>
-            <div class="flex items-center justify-center flex-col gap-y-8">
-              <div class="w-[21rem] h-[11rem]">
-                <img
-                  class="w-full h-full"
-                  src="imgs/News Homepage Desktop.png"
-                  alt="" />
+          <div class="slide">
+            <article class="w-[65%] mx-auto">
+              <div
+                class="flex items-center justify-center flex-col gap-y-8 lg:flex-row lg:gap-36 transition-all">
+                <div class="w-[21rem] h-[11rem] lg:w-[25rem] lg:h-[12rem]">
+                  <img
+                    class="w-full h-full"
+                    src="imgs/Food app desktop.png"
+                    alt="" />
+                </div>
+                <div class="w-[8rem] h-[17rem]">
+                  <img
+                    class="w-full h-full"
+                    src="imgs/Food app mobile.png"
+                    alt="" />
+                </div>
               </div>
-              <div class="w-[8rem] h-[17rem]">
-                <img
-                  class="w-full h-full"
-                  src="imgs/News Homepage Mobile.png"
-                  alt="" />
+
+              <div class="mt-8 lg:text-center lg:w-[60%] lg:mx-auto">
+                <p class="text-primary-200 font-bold text-[1.25rem] mb-6">
+                  Bella Onojie Food App
+                </p>
+                <p>A food ordering app to make life easy</p>
+                <a
+                  href="https://food-delivery-landing.netlify.app/"
+                  target="_blank"
+                  class="mt-6 inline-block font-medium hover:underline transition-all"
+                  >Visit Website &RightArrow;</a
+                >
               </div>
-            </div>
+            </article>
+          </div>
 
-            <div class="mt-8 text-center">
-              <p class="text-primary-200 font-bold text-[20px] mb-6">
-                News Homepage
-              </p>
-              <p>
-                A news homepage with an optimum layout based on the user's
-                device screen size.
-              </p>
-              <a
-                href="#"
-                class="mt-6 inline-block hover:underline transition-all"
-                >Visit Website &RightArrow;</a
-              >
-            </div>
-          </article>
-        </div>
+          <div class="slide">
+            <article class="w-[65%] mx-auto">
+              <div
+                class="flex items-center justify-center flex-col gap-y-8 lg:flex-row lg:gap-36 transition-all">
+                <div class="w-[21rem] h-[11rem] lg:w-[25rem] lg:h-[12rem]">
+                  <img
+                    class="w-full h-full"
+                    src="imgs/News Homepage Desktop.png"
+                    alt="" />
+                </div>
+                <div class="w-[8rem] h-[17rem]">
+                  <img
+                    class="w-full h-full"
+                    src="imgs/News Homepage Mobile.png"
+                    alt="" />
+                </div>
+              </div>
 
-        <!-- Desktop display -->
-        <div
-          id="controls-carousel"
-          class="relative w-full hidden md:block"
-          data-carousel="static">
-          <!-- Carousel wrapper -->
-          <div class="relative h-56 overflow-hidden rounded-lg md:h-[35rem]">
-            <!-- Item 1 -->
-            <div
-              class="hidden duration-700 ease-in-out mt-12"
-              data-carousel-item="active">
-              <article class="w-[38rem] mx-auto">
-                <div
-                  class="flex justify-between hover:scale-105 transition-all">
-                  <div class="w-[25rem] h-[12rem]">
-                    <img
-                      class="w-full h-full"
-                      src="imgs/Interactive Card Details Desktop full.png"
-                      alt="" />
-                  </div>
-                  <div class="w-[8rem] h-[17rem]">
-                    <img
-                      class="w-full h-full"
-                      src="imgs/Interactive Card Details Mobile.png"
-                      alt="" />
-                  </div>
-                </div>
-
-                <div class="text-center mt-8">
-                  <p class="text-primary-200 font-bold text-[20px] mb-6">
-                    Interactive Card Details
-                  </p>
-                  <p>
-                    A responsive and interactive form that allows users to see
-                    the card details update in real-time as they fill in the
-                    form. Users also receive error messages if form is
-                    improperly completed.
-                  </p>
-                  <a
-                    href="#"
-                    class="mt-6 inline-block hover:underline transition-all"
-                    >Visit Website &RightArrow;</a
-                  >
-                </div>
-              </article>
-            </div>
-            <!-- Item 2 -->
-            <div
-              class="hidden duration-700 ease-in-out mt-12"
-              data-carousel-item>
-              <article class="w-[38rem] mx-auto">
-                <div
-                  class="flex justify-between hover:scale-105 transition-all">
-                  <div class="w-[25rem] h-[12rem]">
-                    <img
-                      class="w-full h-full"
-                      src="imgs/Food app desktop.png"
-                      alt="" />
-                  </div>
-                  <div class="w-[8rem] h-[17rem]">
-                    <img
-                      class="w-full h-full"
-                      src="imgs/Food app mobile.png"
-                      alt="" />
-                  </div>
-                </div>
-
-                <div class="text-center mt-8">
-                  <p class="text-primary-200 font-bold text-[20px] mb-6">
-                    Bella Onojie Food App
-                  </p>
-                  <p>A food ordering app to make life easy</p>
-                  <a href="#" class="mt-6 block hover:underline transition-all"
-                    >Visit Website &RightArrow;</a
-                  >
-                </div>
-              </article>
-            </div>
-            <!-- Item 3 -->
-            <div
-              class="hidden duration-700 ease-in-out mt-12"
-              data-carousel-item>
-              <article class="w-[38rem] mx-auto">
-                <div
-                  class="flex justify-between hover:scale-105 transition-all">
-                  <div class="w-[25rem] h-[12rem]">
-                    <img
-                      class="w-full h-full"
-                      src="imgs/News Homepage Desktop.png"
-                      alt="" />
-                  </div>
-                  <div class="w-[8rem] h-[17rem]">
-                    <img
-                      class="w-full h-full"
-                      src="imgs/News Homepage Mobile.png"
-                      alt="" />
-                  </div>
-                </div>
-
-                <div class="text-center mt-8">
-                  <p class="text-primary-200 font-bold text-[20px] mb-6">
-                    News Homepage
-                  </p>
-                  <p>
-                    A news homepage with an optimum layout based on the user's
-                    device screen size.
-                  </p>
-                  <a
-                    href="#"
-                    class="mt-6 inline-block hover:underline transition-all"
-                    >Visit Website &RightArrow;</a
-                  >
-                </div>
-              </article>
-            </div>
-            <!-- Item 4 -->
-            <div
-              class="hidden duration-700 ease-in-out mt-12"
-              data-carousel-item>
-              <article class="w-[38rem] mx-auto">
-                <div
-                  class="flex justify-between hover:scale-105 transition-all">
-                  <div class="w-[25rem] h-[12rem]">
-                    <img
-                      class="w-full h-full"
-                      src="imgs/News Homepage Desktop.png"
-                      alt="" />
-                  </div>
-                  <div class="w-[8rem] h-[17rem]">
-                    <img
-                      class="w-full h-full"
-                      src="imgs/News Homepage Mobile.png"
-                      alt="" />
-                  </div>
-                </div>
-
-                <div class="text-center mt-8">
-                  <p class="text-primary-200 font-bold text-[20px] mb-6">
-                    News Homepage
-                  </p>
-                  <p>
-                    A news homepage with an optimum layout based on the user's
-                    device screen size.
-                  </p>
-                  <a
-                    href="#"
-                    class="mt-6 inline-block hover:underline transition-all"
-                    >Visit Website &RightArrow;</a
-                  >
-                </div>
-              </article>
-            </div>
+              <div class="mt-8 lg:text-center lg:w-[60%] lg:mx-auto">
+                <p class="text-primary-200 font-bold text-[1.25rem] mb-6">
+                  News Homepage
+                </p>
+                <p>
+                  A news homepage with an optimum layout based on the user's
+                  device screen size.
+                </p>
+                <a
+                  href="https://news-homepage-landing.netlify.app/"
+                  class="mt-6 inline-block font-medium hover:underline transition-all"
+                  >Visit Website &RightArrow;</a
+                >
+              </div>
+            </article>
           </div>
 
           <!-- Slider controls -->
           <button
-            type="button"
-            class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-            data-carousel-prev>
+            class="flex items-center justify-center px-4 slider__btn slider__btn--left">
             <span
-              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-secondary-100 group-hover:bg-[#5b6950d8] group-focus:ring-4 group-focus:ring-secondary-100 group-focus:outline-none">
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-secondary-100 hover:bg-[#5b6950d8]">
               <svg
                 class="w-4 h-4 text-white"
                 aria-hidden="true"
@@ -493,11 +380,9 @@
           </button>
 
           <button
-            type="button"
-            class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-            data-carousel-next>
+            class="flex items-center justify-center px-4 slider__btn slider__btn--right">
             <span
-              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-secondary-100 group-hover:bg-[#5b6950d8] group-focus:ring-4 group-focus:ring-secondary-100 group-focus:outline-none">
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-secondary-100 hover:bg-[#5b6950d8] focus:ring-4 focus:ring-secondary-100 focus:outline-none">
               <svg
                 class="w-4 h-4 text-white"
                 aria-hidden="true"
@@ -514,6 +399,7 @@
               <span class="sr-only">Next</span>
             </span>
           </button>
+          <div class="dots"></div>
         </div>
       </div>
     </section>
@@ -575,16 +461,15 @@
         class="text-xl text-secondary-100 text-center font-poppins font-medium mb-7">
         Let's get started...
       </p>
-      <form>
+      <form action="https://formspree.io/f/mjvqwgvv" method="POST">
         <div
           class="flex flex-col gap-y-6 md:grid md:grid-cols-2 md:gap-x-6 md:gap-y-8 lg:gap-10 lg:w-[90%] mx-auto">
           <div>
             <input
               type="text"
               class="border text-primary-100 border-secondary-100 bg-bground-100 rounded-lg px-3 py-2 w-full outline-none focus:border-none"
-              name=""
-              id=""
-              placeholder="First Name *"
+              name="First Name"
+              placeholder="First Name"
               required />
           </div>
 
@@ -592,9 +477,8 @@
             <input
               type="text"
               class="border text-primary-100 border-secondary-100 bg-bground-100 rounded-lg px-3 py-2 w-full outline-none focus:border-none"
-              name=""
-              id=""
-              placeholder="Last Name *"
+              name="Last Name"
+              placeholder="Last Name"
               required />
           </div>
 
@@ -602,9 +486,8 @@
             <input
               type="email"
               class="border text-primary-100 border-secondary-100 bg-bground-100 rounded-lg px-3 py-2 w-full outline-none focus:border-none"
-              name=""
-              id=""
-              placeholder="Email *"
+              name="Email"
+              placeholder="Email"
               required />
           </div>
 
@@ -612,8 +495,7 @@
             <input
               type="number"
               class="border text-primary-100 border-secondary-100 bg-bground-100 rounded-lg px-3 py-2 w-full outline-none focus:border-none"
-              name=""
-              id=""
+              name="Phone Number"
               placeholder="Phone Number" />
           </div>
 
@@ -621,8 +503,8 @@
             <textarea
               class="border h-auto text-primary-100 border-secondary-100 bg-bground-100 rounded-lg px-3 py-2 w-full outline-none focus:border-none"
               placeholder="Message..."
-              name=""
-              id=""></textarea>
+              name="Message"
+              required></textarea>
           </div>
         </div>
 
@@ -638,7 +520,6 @@
     <div
       class="fixed top-0 left-0 bg-[#00000080] w-full h-full z-[110] backdrop-blur transition-all duration-500 hide backdrop"></div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
