@@ -614,6 +614,11 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -649,6 +654,10 @@ video {
 
 .mt-8{
   margin-top: 2rem;
+}
+
+.block{
+  display: block;
 }
 
 .inline-block{

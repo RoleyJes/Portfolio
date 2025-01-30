@@ -198,3 +198,7 @@ const imgObserver = new IntersectionObserver(loadImg, {
 });
 
 imgTargets.forEach((img) => imgObserver.observe(img));
+
+// Footer year
+const year = document.querySelector(".year");
+year.textContent = new Date().getFullYear();
