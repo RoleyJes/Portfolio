@@ -17,7 +17,7 @@
         <div
           class="absolute top-10 right-6 w-[2rem] cursor-pointer"
           id="closeMenu">
-          <img class="w-full" src="imgs/icon-menu-close.svg" alt="close menu" />
+          <img loading="lazy" class="w-full" src="imgs/icon-menu-close.svg" alt="close menu" />
         </div>
 
         <ul class="flex flex-col gap-8 items-center justify-center text-2xl">
@@ -80,7 +80,7 @@
 
         <!-- hamburger -->
         <div class="cursor-pointer md:hidden" id="openMenu">
-          <img src="imgs/icon-menu.svg" alt="menu" />
+          <img loading="lazy" src="imgs/icon-menu.svg" alt="menu" />
         </div>
       </nav>
 
@@ -103,7 +103,7 @@
 
           <div
             class="w-[20rem] bg-[#5b69508c] rounded-full overflow-hidden place-self-center lg:w-[30rem] xl:w-[36rem] lazy-img">
-            <img
+            <img loading="lazy"
               src="imgs/me-no-bg-small.png"
               data-src="imgs/me-no-bg.png"
               class="w-full rounded-full transition-all duration-[250ms] lazy-img"
@@ -171,7 +171,7 @@
           <div
             class="mx-auto py-8 px-16 rounded-lg w-full flex flex-col items-center bg-bground-100 md:w-[70%]">
             <div class="w-[3rem] flex items-center justify-center mb-5">
-              <img class="w-full" src="imgs/computer.svg" alt="" />
+              <img loading="lazy" class="w-full" src="imgs/computer.svg" alt="" />
             </div>
             <p class="mb-8 font-ubuntu text-xl">
               Languages and Frameworks/Libraries
@@ -189,7 +189,7 @@
           <div
             class="mx-auto bg-bground-100 py-8 px-16 rounded-lg w-full flex flex-col items-center md:w-[70%]">
             <div class="w-[3rem] flex items-center justify-center mb-5">
-              <img class="w-full" src="imgs/business.svg" alt="" />
+              <img loading="lazy" class="w-full" src="imgs/business.svg" alt="" />
             </div>
             <p class="mb-8 font-ubuntu text-xl">Developer tools</p>
             <ul class="flex flex-col gap-4 text-start">
@@ -222,19 +222,54 @@
         </div>
 
         <div class="h-[55rem] lg:h-[40rem] slider">
+          <!-- Ruby -->
+          <div class="slide">
+            <article class="w-[65%] mx-auto">
+              <div
+                class="flex items-center justify-center flex-col gap-y-8 lg:flex-row lg:gap-36 transition-all">
+                <div class="w-[21rem] h-[11rem] lg:w-[25rem] lg:h-[12rem]">
+                  <img loading="lazy"
+                    class="w-full h-full"
+                    src="imgs/www.myruby.io_.png"
+                    alt="ruby" />
+                </div>
+                <div class="w-[8rem] h-[17rem]">
+                  <img loading="lazy"
+                    class="w-full h-full"
+                    src="imgs/www.myruby.io_(iPhone 6_7_8 Plus).png"
+                    alt="ruby" />
+                </div>
+              </div>
+
+              <div class="mt-8 lg:text-center lg:w-[60%] lg:mx-auto">
+                <p class="text-primary-200 font-bold text-[1.25rem]">
+                  Ruby
+                </p>
+                <em class="block my-4">ReactJS | Tailwind CSS</em>
+                <p>A responsive, production-ready React website built to promote and support a cross-border money transfer platform, featuring optimized asset delivery, reusable UI components, and seamless routing.</p>
+                <a
+                  href="https://www.myruby.io/"
+                  target="_blank"
+                  class="mt-6 inline-block font-medium hover:underline transition-all"
+                  >Visit &RightArrow;</a
+                >
+              </div>
+            </article>
+          </div>
+
           <!-- Sky alliance -->
           <div class="slide">
             <article class="w-[65%] mx-auto">
               <div
                 class="flex items-center justify-center flex-col gap-y-8 lg:flex-row lg:gap-36 transition-all">
                 <div class="w-[21rem] h-[11rem] lg:w-[25rem] lg:h-[12rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/skyalliance.netlify.app_desktopp.png"
                     alt="" />
                 </div>
                 <div class="w-[8rem] h-[17rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/skyalliance.netlify.app_(iPhone 6_7_8 Plus).png"
                     alt="" />
@@ -263,13 +298,13 @@
               <div
                 class="flex items-center justify-center flex-col gap-y-8 lg:flex-row lg:gap-36 transition-all">
                 <div class="w-[21rem] h-[11rem] lg:w-[25rem] lg:h-[12rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/growthify_desktop.png"
                     alt="" />
                 </div>
                 <div class="w-[8rem] h-[17rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/growthify(iPhone 6_7_8 Plus).png"
                     alt="" />
@@ -298,13 +333,13 @@
               <div
                 class="flex items-center justify-center flex-col gap-y-8 lg:flex-row lg:gap-36 transition-all">
                 <div class="w-[21rem] h-[11rem] lg:w-[25rem] lg:h-[12rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/skypump.netlify.app_desktop.png"
                     alt="" />
                 </div>
                 <div class="w-[8rem] h-[17rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/skypump.netlify.app_(iPhone 6_7_8 Plus).png"
                     alt="" />
@@ -333,13 +368,13 @@
               <div
                 class="flex items-center justify-center flex-col gap-y-8 lg:flex-row lg:gap-36 transition-all">
                 <div class="w-[21rem] h-[11rem] lg:w-[25rem] lg:h-[12rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/Interactive Card Details Desktop full.png"
                     alt="" />
                 </div>
                 <div class="w-[8rem] h-[17rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/Interactive Card Details Mobile.png"
                     alt="" />
@@ -373,13 +408,13 @@
               <div
                 class="flex items-center justify-center flex-col gap-y-8 lg:flex-row lg:gap-36 transition-all">
                 <div class="w-[21rem] h-[11rem] lg:w-[25rem] lg:h-[12rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/clickerss_desktop.png"
                     alt="" />
                 </div>
                 <div class="w-[8rem] h-[17rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/clickerss_Phone.png"
                     alt="" />
@@ -408,13 +443,13 @@
               <div
                 class="flex items-center justify-center flex-col gap-y-8 lg:flex-row lg:gap-36 transition-all">
                 <div class="w-[21rem] h-[11rem] lg:w-[25rem] lg:h-[12rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/Food app desktop.png"
                     alt="" />
                 </div>
                 <div class="w-[8rem] h-[17rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/Food app mobile.png"
                     alt="" />
@@ -445,13 +480,13 @@
               <div
                 class="flex items-center justify-center flex-col gap-y-8 lg:flex-row lg:gap-36 transition-all">
                 <div class="w-[21rem] h-[11rem] lg:w-[25rem] lg:h-[12rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/News Homepage Desktop.png"
                     alt="" />
                 </div>
                 <div class="w-[8rem] h-[17rem]">
-                  <img
+                  <img loading="lazy"
                     class="w-full h-full"
                     src="imgs/News Homepage Mobile.png"
                     alt="" />
@@ -551,14 +586,14 @@
               href="https://twitter.com/jessey_ca"
               target="_blank"
               class="w-[2rem] h-[2rem] rounded-full flex items-center justify-center p-2 border border-[#d5dde9]">
-              <img src="imgs/icons8-twitter.svg" alt="twitter logo" />
+              <img loading="lazy" src="imgs/icons8-twitter.svg" alt="twitter logo" />
             </a>
 
             <!-- <a
               href="https://www.linkedin.com/in/jessica-imoesemi-11710b179/"
               target="_blank"
               class="w-[2rem] h-[2rem] rounded-full flex items-center justify-center p-2 border border-[#d5dde9]">
-              <img src="imgs/icons8-linkedin.svg" alt="linkedin logo" />
+              <img loading="lazy" src="imgs/icons8-linkedin.svg" alt="linkedin logo" />
             </a> -->
           </div>
 
